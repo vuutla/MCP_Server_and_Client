@@ -25,7 +25,7 @@ async def run():
             print("content", content.contents[0].text)
 
             # Read a resource
-            content = await session.read_resource("greeting://yash")
+            content = await session.read_resource("greeting://Naga")
             print("content", content.contents[0].text)
 
             # List available prompts
